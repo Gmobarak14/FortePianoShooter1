@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2166253364137219883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2166253364137219887}
+  - component: {fileID: 2166253364137219880}
+  - component: {fileID: 2166253364137219881}
+  - component: {fileID: 2166253364137219882}
+  - component: {fileID: 3150511550141858200}
+  - component: {fileID: 3639504999669792828}
+  - component: {fileID: -1915124892485654897}
+  - component: {fileID: 8558455273876384486}
+  m_Layer: 0
+  m_Name: spherePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2166253364137219887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 130.8, y: 51, z: 36.504463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2166253364137219880
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2166253364137219881
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2e4cc6d6b17fb4bb2a646999b986cdd5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2166253364137219882
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_Material: {fileID: 13400000, guid: ceac9727c5b744a9aac6e3fe7c05dfd5, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3150511550141858200
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!114 &3639504999669792828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed7e077873744f7b5dedc3c4b3cb9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &-1915124892485654897
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.74
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 200
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &8558455273876384486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166253364137219883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d20258c641c94f0ea3dc32cfe3de904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logCsoundOutput: 0
+  mute: 0
+  processClipAudio: 0
+  loudVolumeWarning: 1
+  loudWarningThreshold: 10
+  csoundScore: 
+  environmentSettings: []
+  _csoundFileGUID: 305abd9f8c6e040e29534c9762169d2c
+  _csoundString: "<Cabbage>\nform caption (\"Basic Test\"), size(300, 100), pluginId(\"def1\")\n\nhslider
+    bounds(0, 0, 300, 50) range(20, 16000, 440, 1, 0.001) valueTextBox(1) channel(\"freqSlider\")
+    value(440) velocity(50)\n\nbutton bounds(66, 56, 80, 40) channel(\"trigger\")\n</Cabbage>\n\n<CsoundSynthesizer>\n<CsOptions>\n;-n
+    -d -m0d \n;-odac\n-n ; -m0d\n</CsOptions>\n<CsInstruments> \nsr \t= \t48000 \nksmps
+    \t= \t64\nnchnls \t= \t2\n0dbfs\t=\t1 \n\ninstr Trig\n    kTrig chnget \"Trigger\"\n   
+    if changed(kTrig) == 1 then \n        event \"i\", \"2\", 0, 0.5\n      endif\nendin\n\n\ninstr
+    1\n\nkNotes[] init 6\nkNotes[] fillarray 261.63, 329.63, 392, 493.88, 587.33,
+    880.00\n\n//kRnd randomh 0, 5\nkRnd randomh 0, 5, 8, 2\n\naEnv mxadsr 0.01, 0.2,
+    0.2, 0.2 \nprintks \"kRnd= %d\\n\", 0, kRnd\n//a1 oscil aEnv, chnget:k(\"freqSlider\")
+    , 1\na1 oscil aEnv, kNotes[kRnd] , 1\nares nreverb a1, 0.4, 0.7\namix ntrpol\t\ta1,
+    ares, 0.3\nouts amix, amix\n//chnget:k(\"freqSlider\")\nendin\n\n\n\ninstr 2\nkNotes[]
+    init 6\nkNotes[] fillarray 261.63, 329.63, 392, 493.88, 587.33, 880.00\nkRnd
+    randomh 0, 5, 8, 2\n\nkenv mxadsr 0.01, 0.2, 0.8, 0.2\nkvib  linseg 0, 0.5, 0,
+    1, 1, 2.5, 1\nkvamp = kvib * 0.01\nabow  wgbow kenv, kNotes[kRnd] , 5, 0.5, kvib,
+    kvamp, 1\nouts abow, abow\nendin\n\n\n\n</CsInstruments>\n<CsScore>\nf0 z\n//i1
+    0 z \nf1 0 4096 10 1\nf2 0 2048 10 1\n//i1 0 10\n</CsScore>\n</CsoundSynthesizer>\n\n\n\n\n\n\n<bsbPanel>\n
+    <label>Widgets</label>\n <objectName/>\n <x>100</x>\n <y>100</y>\n <width>320</width>\n
+    <height>240</height>\n <visible>true</visible>\n <uuid/>\n <bgcolor mode=\"background\">\n 
+    <r>240</r>\n  <g>240</g>\n  <b>240</b>\n </bgcolor>\n</bsbPanel>\n<bsbPresets>\n</bsbPresets>\n"
+  _csoundFileName: BasicTest.csd
+  _csoundAsset: {fileID: 102900000, guid: 305abd9f8c6e040e29534c9762169d2c, type: 3}
+  _channels:
+  - type: form
+    channel: 
+    text: 
+    caption: 
+    min: 0
+    max: 0
+    value: 0
+    skew: 0
+    increment: 0
+    options: []
+  - type: hslider
+    channel: freqSlider
+    text: 
+    caption: 
+    min: 20
+    max: 16000
+    value: 440
+    skew: 1
+    increment: 0.001
+    options: []
+  - type: button
+    channel: trigger
+    text: 
+    caption: 
+    min: 0
+    max: 0
+    value: 0
+    skew: 0
+    increment: 0
+    options: []
+  _availableAudioChannels: []
+  _drawCsoundString: 0
+  _drawTestScore: 0
+  _drawSettings: 0
+  _drawChannels: 0
+  _drawAudioChannels: 0
+  _drawPresets: 0
+  _drawPresetsLoad: 0
+  _drawPresetsSave: 0
+  _drawPresetsImport: 0
+  _showRuntimeEnvironmentPath: 0
+  _currentPreset: 
+  _currentPresetSaveFolder: 
+  _currentPresetLoadFolder: 
